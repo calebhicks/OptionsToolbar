@@ -25,7 +25,22 @@
                                             <action selector="mail:" destination="vXZ-lx-hvc" id="W8S-T7-qyo"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem title="New" id="YcZ-b8-fvh">
+                                        <connections>
+                                            <action selector="new:" destination="vXZ-lx-hvc" id="EAC-gf-blE"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="KQ1-t9-bJ2"/>
+                                    <barButtonItem title="Blue" id="yMd-GM-8rm">
+                                        <connections>
+                                            <action selector="blue:" destination="vXZ-lx-hvc" id="y9d-J4-D4b"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Green" id="XDn-0R-ZOg">
+                                        <connections>
+                                            <action selector="green:" destination="vXZ-lx-hvc" id="D2L-Gx-eee"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem title="Red" id="hTH-Cc-eUP">
                                         <connections>
                                             <action selector="red:" destination="vXZ-lx-hvc" id="Wwg-Fg-rvK"/>

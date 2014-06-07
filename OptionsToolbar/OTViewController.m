@@ -7,6 +7,7 @@
 //
 
 #import "OTViewController.h"
+#import "OTExtraViewController.h"
 #import <MessageUI/MessageUI.h>
 
 @interface OTViewController () <MFMailComposeViewControllerDelegate>
@@ -40,6 +41,23 @@
 - (IBAction)red:(id)sender {
 
     self.view.backgroundColor = [UIColor redColor];
+}
+
+- (IBAction)green:(id)sender {
+    self.view.backgroundColor = [UIColor greenColor];
+
+    
+}
+
+- (IBAction)blue:(id)sender {
+    self.view.backgroundColor = [UIColor blueColor];
+
+}
+
+- (IBAction)new:(id)sender {
+    OTExtraViewController *extraView = [OTExtraViewController new];
+    
+    [self presentViewController:extraView animated:YES completion:nil];
 }
 
 @end
